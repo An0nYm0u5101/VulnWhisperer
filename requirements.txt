@@ -2,7 +2,7 @@ pandas==0.20.3
 setuptools==40.4.3
 pytz==2017.2
 Requests==2.20.0
-lxml==4.1.1
+lxml==4.6.3
 future-fstrings
 bs4
 jira
@@ -10,3 +10,4 @@ bottle
 coloredlogs
 qualysapi==6.0.0
 httpretty
+urllib3>=1.26.5 # not directly required, pinned by Snyk to avoid a vulnerability
